@@ -430,9 +430,9 @@ a:focus {
 
 #about strong,
 #about span {
-  font-weight: bold;
+  /* font-weight: bold; */
   display: inline-block;
-  padding-bottom: 8px;
+  /* padding-bottom: 8px; */
 }
 
 #about ul li {
