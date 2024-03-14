@@ -475,7 +475,6 @@ a:focus {
   background: url("../images/quote1.jpg");
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover;
-  height: 400px;
   width: 100%;
 }
 
@@ -504,6 +503,12 @@ a:focus {
 #education .education-img {
   background: url("../images/quote1.jpg") no-repeat;
 }
+#education .education-img-2 {
+  background: url("../images/bg2.jpeg") no-repeat;
+}
+
+
+
 
 #education .media-heading {
   margin-bottom: 0px;
@@ -841,4 +846,11 @@ footer {
   transform: translate(-50%, -50%);
   font-size: 30px;
   font-weight: bold;
+}
+
+@media (min-width: 768px) {
+  .equal {
+    display: flex;
+    flex-wrap: wrap;
+  }
 }
